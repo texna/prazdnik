@@ -1,12 +1,12 @@
 class PagesController < ApplicationController
   def home
-    @hello = 'Hi there!'
+    @hello = 'Привет'
   end
 
   def course
   end
 
-  # def testimonials
-  #   @hello = 'Hi there!'
-  # end
+  def testimonials
+    @hello = 'привет!'
+  end
 end
